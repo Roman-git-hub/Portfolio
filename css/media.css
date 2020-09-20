@@ -1,0 +1,129 @@
+/* Медиа запрос для экранов меньше 1140px */
+
+@media (max-width: 1110px) {
+    .portfolio__card {
+        max-width: calc(50% - 15px);
+    }
+}
+
+/* Медиа запрос для экранов меньше 1140px */
+@media (max-width: 1024px) {
+    /* Footer */
+    .footer {
+        padding: 40px 0px 60px 0px;
+    }
+    .footer__row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__contacts {
+        max-width: 290px;
+        margin-bottom: 50px;
+    }
+    .footer__button {
+        width: 272px;
+    }
+    .footer__contacts p {
+        font-size: 14px;
+    }
+    .footer__icon {
+        margin-bottom: 52px;
+    }
+    .footer__icon p {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .footer__icon_row>*+* {
+        margin-left: 33px;
+    }
+    .footer__copyright_name {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .footer__copyright p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Медиа запрос для экранов меньше 760px */
+
+@media (max-width: 760px) {
+    /* Header */
+    .header__title {
+        font-size: 32px;
+    }
+    .header__subtitle {
+        font-size: 14px;
+    }
+    /* Portfolio */
+    .portfolio__title {
+        font-size: 32px;
+        margin: 40px 0px 30px 0px;
+    }
+    .portfolio__card {
+        max-width: 540px;
+    }
+    .portfolio__cards_wrap {
+        justify-content: center;
+    }
+    .portfolio__card_link {
+        padding: 15px;
+    }
+    .portfolio__card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+    .portfolio__img {
+        margin-bottom: 15px;
+    }
+    /* Footer */
+    .footer {
+        padding: 40px 0px 60px 0px;
+    }
+    .footer__row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__contacts {
+        max-width: 290px;
+        margin-bottom: 50px;
+    }
+    .footer__button {
+        width: 272px;
+    }
+    .footer__contacts p {
+        font-size: 14px;
+    }
+    .footer__icon {
+        margin-bottom: 52px;
+    }
+    .footer__icon p {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .footer__icon_row>*+* {
+        margin-left: 33px;
+    }
+    .footer__copyright_name {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .footer__copyright p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .project__header {
+        font-size: 28px;
+        margin: 40px 0px 30px 0px;
+    }
+    .project__img {
+        margin-bottom: 20px;
+    }
+}
+
+/* Медиа запрос для экранов меньше 320px */
+
+@media (max-width: 320px) {}
